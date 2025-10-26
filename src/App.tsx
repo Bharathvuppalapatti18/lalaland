@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import About from './components/About';
 import Events from './components/Events';
 import Music from './components/Music';
 import Sustainability from './components/Sustainability';
@@ -30,6 +31,7 @@ function App() {
       )}
       <Header />
       <Hero />
+      <About />
       <Events />
       <Music />
       <Sustainability />
